@@ -9,23 +9,28 @@ function App() {
   return (
 
     <Router>
-      
-        <Container>
+      <div>
+        
         <Link to='/'> Home </Link>
         <Link to='/contact'> contact </Link>
         <Link to='/company'> Company </Link>
         <Link to='/newproject'> New Project</Link>
-        </Container>
-         <Routes>  
-      
-           <Route exact path='/' element={<Home />} />
-           <Route exact path='/company' element={<Company />} />
+        
 
-           <Route exact path='/contact' element={<Contact />} />
+      </div>
+      <Container customClass='min-heigth'>
 
-          <Route exact path='/newproject' element={<NewProject />} />
-
+         <Routes  >
+          
+           
+              <Route exact path='/' element={<Home />} />
+              <Route exact path='/company' element={<Company />} />
+              <Route exact path='/contact' element={<Contact />} />
+              <Route exact path='/newproject' element={<NewProject />} />
+          
+          
         </Routes>
+        </Container>
        
       <footer>Footer</footer>
     </Router>
