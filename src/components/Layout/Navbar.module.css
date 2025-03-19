@@ -6,7 +6,7 @@
 }
 .list{
     display: flex;
-    list-style: nome;
+    list-style: none;
  
     align-items: center;
 }
