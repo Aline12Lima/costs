@@ -1,5 +1,14 @@
+.form{
+    width: 100%;
+    margin: 2em 0;
+}
 .input_form{
 display: flex;
 flex-direction: column;
 
+}
+
+.category_id{
+    padding: 0.5em;
+    margin-top: 0.6em;
 }
