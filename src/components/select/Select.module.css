@@ -11,12 +11,9 @@
 
 }
 
-.form_control input{
+.form_control select{
     padding: 0.7em;
     border: none;
   
 }
 
-.form_control input::placeholder{
-   color: #7b7b7b; 
-}

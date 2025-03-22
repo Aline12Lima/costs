@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Container from "./Container"
+import Container from "../Layout/Container"
 
 import styles from './Navbar.module.css'
 import moeda from '../../img/moeda.svg'

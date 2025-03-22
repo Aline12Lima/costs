@@ -1,12 +1,12 @@
 import {  BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom'
 import Home from './components/Pages/Home.js'
-import  Company from './components/Pages/Company.js'
+import Company from './components/Pages/Company.js'
 import Contact from './components/Pages/Contact.js'
 import NewProject from './components/Pages/NewProject.js'
 import Projects from './components/Pages/Projects.js'
 import Container from './components/Layout/Container.js'
-import Navbar from './components/Layout/Navbar.js'
-import Footer from './components/Layout/Footer.js'
+import Navbar from './components/nav/Navbar.js'
+import Footer from './components/footer/Footer.js'
 
 function App() {
   return (

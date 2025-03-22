@@ -1,7 +1,9 @@
 import style from './FormProject.module.css'
 import Input from '../form/Input'
+import Select from '../select/Select'
+import Button from '../button/Button'
 
-function FormProject(){
+function FormProject(btnText){
     return(
     <form className={style.form}>
         <Input 
@@ -15,12 +17,13 @@ function FormProject(){
          name='budget'
          placeholder='Insira o orçamento total'/>
 
+        <Select
+         name='category_id' 
+         text="Selecione a categoria"
 
-        <div className={style.select}>
-        <select name="category_id">
-         <option disabled> Selecione a Categoria</option>
-        </select>
-        </div>
+        />
+        <Button text={btnText}/>
+
       
         
     </form>
