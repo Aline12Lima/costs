@@ -1,7 +1,5 @@
-function Projects(){
-    return(
-        <h1>Project</h1>
-    )
+function Projects() {
+  return <h1>Project</h1>;
 }
 
-export default Projects
+export default Projects;

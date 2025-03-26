@@ -15,7 +15,7 @@
     margin: 0 1em;
 }
 .social_list li:hover{
-    color: #fb3;
+    color: rgb(243, 204, 126);
 }
 .social_list svg{
     font-size: 1.5rem;
