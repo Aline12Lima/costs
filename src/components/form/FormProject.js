@@ -64,6 +64,7 @@ function FormProject({ onSubmit, btnText, projectData }) {
         name="category_id"
         text="Selecione a categoria"
         options={categories}
+        ies
         onChange={handleCategory}
         value={project.category ? project.category.id : ""}
       />
